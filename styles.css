@@ -1,0 +1,25 @@
+/* static/css/styles.css */
+
+/* Center the homepage content vertically */
+.text-center {
+    padding: 100px 0;
+}
+
+/* Style for product images */
+.img-thumbnail {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+/* Add hover effect on table rows */
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .img-thumbnail {
+        max-width: 70px;
+    }
+}
